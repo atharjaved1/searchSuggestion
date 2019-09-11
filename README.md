@@ -1,4 +1,5 @@
-# SyncfusionAngularAutocomplete
+# Angular Search Suggestion 
+    Type the value in the search box will give you the suggestion like gooogle search
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
 
