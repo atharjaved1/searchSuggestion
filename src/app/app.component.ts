@@ -3,11 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-root',
     // specifies the template string for the AutoComplete component
-    template: `<h2>Search</h2>
-    <div style="width:250px"> <ejs-autocomplete id='atcelement' [dataSource]='sportsData' [(value)]='value'></ejs-autocomplete>
-    <div style='margin-top: 50px'>
-        <input type="text" [(ngModel)]="value" style="width:245px;height:25px" />
-     </div></div>`
+    templateUrl: './app.component.html'
 })
 export class AppComponent {
     constructor() {
